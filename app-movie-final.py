@@ -80,7 +80,7 @@ df=df[df.year <= year_filter]
 st.write(df.companies.value_counts())
 st.write('there are')
 company_counts = st.write(df.companies.nunique())
-st.write('companies')
+st.write('movies')
     
 plt.style.use('seaborn')
 
